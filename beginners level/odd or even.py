@@ -1,5 +1,6 @@
-n=int(input("Enter the number"))
-if(n%2==0):
+a=int(input())
+n=a%2
+if(n==0):
   print("Even")
 else:
   print("Odd")
