@@ -1,0 +1,19 @@
+no=int(raw_input())
+count=0
+value=0
+temp=no
+if(no<=10000):
+      while(no!=0):
+        no=no/10
+        count=count+1
+      no=temp
+      while(no!=0):
+        k=no%10
+        value+=k**count
+        no=no/10
+      if(temp==value):
+        print("yes")
+      else:
+        print("no")
+else:
+  print("invalid")
